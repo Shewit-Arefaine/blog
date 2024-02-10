@@ -1,0 +1,58 @@
+/* Complete Profile.css */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    max-width: 300px; /* Adjust based on your layout */
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .profile-pic-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #007bff; /* Tech-inspired blue border */
+    margin-bottom: 15px;
+  }
+  
+  .profile-pic {
+    width: 100%;
+    height: auto;
+  }
+  
+  h3 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    color: #333; /* Icon color, adjust as needed */
+    font-size: 24px; /* Icon size, adjust as needed */
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .social-icon:hover, .social-icon:focus {
+    color: #007bff; /* Icon hover color, adjust as needed */
+  }
+  
+  /* Additional Styling */
+  /* Consider adding padding or margins as needed to space out elements */
+  /* You might also add media queries for responsive adjustments */
+  
